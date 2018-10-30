@@ -99,7 +99,8 @@ p.citata{
 #footer{
 	min-height: 100px;
 	background: #222;
-	border-top: 4px solid #000;
+	border-top: 6px solid #000;
+	border-bottom: 6px solid #000;
 }
 #wr-portret{
 	position: absolute;
@@ -190,7 +191,7 @@ p.contacts{
 	#wr-portret{
 		top: 500px;
 		right: 16%;
-		transform: scale(1.5);
+		transform: scale(1.25);
 		width: 400px;
 		border: 3px solid #ccc;
 		border-radius: 50px;
@@ -205,10 +206,11 @@ p.contacts{
 		background: url(imgs/bg-641.jpg);
 		-webkit-background-size: cover;
 		background-size: cover;
-		height: 2000px;
+		min-height: 2000px;
 	}
 	#footer{
-		height: 300px;
+		min-height: 350px;
+		padding-bottom: 30px;
 	}
 	p.contacts{
 		font-size: 3em;
@@ -228,14 +230,10 @@ p.contacts{
 #box-cont{
 	padding-top: 10px;
 }
-#map{
-	padding: 20px;
-}
 p.copy>a{
 	color: #fff;
-}
-p.copy{
-	padding: 0 10px 10px;
+	font-style: italic;
+	font-size: 3em;
 }
 p.copy>a:hover{
 	text-shadow: 1px 1px 2px #000;
