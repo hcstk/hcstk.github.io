@@ -45,8 +45,13 @@ p.text-cont, p.text-cont>a{
 @media screen and (max-width: 980px){
 	p.text-cont, p.text-cont>a{
 		font-size: 2em;
+		padding: 40px;
 	}
 	#wrapper{
 		min-height: 1200px;
+	}
+	#button-home{
+		font-size: 2em;
+		padding-top: 80px;
 	}
 }
