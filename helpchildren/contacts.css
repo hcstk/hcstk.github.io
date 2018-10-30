@@ -9,22 +9,26 @@
 	font-family: tahoma, arial;
 }
 body{
-	background: url(imgs/bg-body.png);
+	/* background: url(imgs/bg-body.png); */
+	background:rgba(0,0,0,.8);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
 }
 #wrapper{
 	max-width: 1200px;
 	min-width: 650px;
 	margin: 0 auto;
 }
-#header{
-	background:rgba(0,0,0,.8);
-}
 #map{
-	width: 100%;
-	/* height: 500px; */
+	max-width: 1200px;
 }
-p.text-cont{
-	padding: 20px 20px;
+p.text-cont, p.text-cont>a{
+	padding: 20px 0px;
 	font-size: 1.2em;
 	color: #fff;
 }
@@ -48,4 +52,13 @@ p.text-cont{
 	color: #fff;
 	background: #FF0000;
 	transition: all .2s ease;
+}
+
+@media screen and (max-width: 980px){
+	p.text-cont, p.text-cont>a{
+		font-size: 2em;
+	}
+	#wrapper{
+		min-height: 1200px;
+	}
 }
