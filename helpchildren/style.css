@@ -96,13 +96,6 @@ p.citata{
 	text-align: right;
 	transform: skewY(-15deg);
 }
-#footer{
-	min-height: 100px;
-	background: #222;
-	border-top: 6px solid #000;
-	border-bottom: 6px solid #000;
-	padding: 15px;
-}
 #wr-portret{
 	position: absolute;
 	top: 150px;
@@ -138,8 +131,13 @@ p.copy a{
 	font-size: 14px;
 	color: #fff;
 	font-style: italic;
-	text-shadow: 5px 5px 8px #000;;
-	color: blue;
+}
+#footer{
+	min-height: 100px;
+	background: #222;
+	border-top: 6px solid #000;
+	border-bottom: 6px solid #000;
+	padding: 25px;
 }
 
 @media screen and (max-width: 980px){
@@ -197,7 +195,7 @@ p.copy a{
 		/* padding-bottom: 30px; */
 	}
 	p.contacts, p.copy a{
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 	ul.menu>li>a{
 		padding: 30px 10px 30px 85px;
