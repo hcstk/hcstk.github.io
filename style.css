@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	font-family: tahoma, arial;
+}
+body{
+	background: url(imgs/bg-body.png);
+}
+#wrapper{
+	max-width: 1200px;
+	min-width: 950px;
+	margin: 0 auto;
+	position: relative;
+}
+#header{
+	background:url(imgs/bg.jpg);
+	height: 854px;
+	position: relative;
+}
+ul.menu{
+	position: absolute;
+	top: 250px;
+	overflow: hidden;
+}
+ul.menu>li{
+	margin-bottom: 10px;
+	min-width: 220px;
+	display: table;
+	margin-left: -70px;
+	transition: .2s all ease-in-out .2s;
+
+}
+ul.menu>li:hover{
+	margin-left: -20px;
+	transition: .2s all ease-in-out;
+}
+ul.menu>li>a{
+	border: 2px solid #fff;
+	border-radius: 0 15px 15px 0;
+	color: #000;
+	font-size: 1.2em;
+	display: block;
+	background: #999;
+	padding: 10px 10px 10px 85px;
+	text-transform: uppercase;
+	transition: .2s all ease-in-out;
+	text-align: left;
+}
+ul.menu>li:first-child{
+	margin-left: -20px;
+}
+ul.menu>li>a:hover{
+	color: #fff;
+	background: #FF0000;
+}
+.menu>li:first-child>a{
+	color: #fff;
+	background: #FF0000;
+}
+p.title{
+	color:red;
+	text-shadow: 1px 1px 1px #fff;
+	font-size: 5em;
+	opacity: .8;
+	font-family: lobster;
+	text-align: center;
+	cursor: pointer;
+}
+p.under{
+	color: yellow;
+	text-shadow: 1px 1px 10px #000;
+	font-size: 3em;
+	font-family: lobster;
+	text-align: center;
+
+}
+p.citata{
+	color: #fff;
+	width: 335px;
+	position: absolute;
+	top: 550px;
+	right: 30px;
+	font-family: Pacifico;
+	text-shadow: 1px 1px 5px #000;
+	padding: 10px;
+	line-height: 1.1;
+	font-size: 1.4em;
+	text-align: right;
+	transform: skewY(-15deg);
+}
+#footer{
+	min-height: 100px;
+	background: #222;
+	border-top: 4px solid #000;
+}
+#wr-portret{
+	position: absolute;
+	top: 150px;
+	right: 60px;
+	width: 300px;
+	transform: scale(.8);
+	border: 2px solid #ccc;
+	border-radius: 30px;
+}
+#portret-img{
+	background: url(imgs/siluet.png);
+	width: 208px;
+	height: 223px;
+	margin: 0 auto;
+}
+.portret{
+	font-family: lobster;
+	text-align: center;
+	color: yellow;
+	text-shadow: 1px 1px 10px #000;
+	font-size: 2em;
+	padding-bottom: 10px;
+}
+p.contacts{
+	color: #fff;
+	padding: 10px 0 0 10px;
+	font-size: 14px;
+	font-style: italic;
+}
+.contacts>a{
+	color: #fff;
+}
+
+@media screen and (max-width: 1020px) {
+	p.title{
+		font-size: 3em;
+	}
+	p.under{
+		font-size: 2em;
+	}
+	p.citata{
+		top: 620px;
+		font-size: 2em;
+		width: 500px;
+	}
+	#wr-portret{
+		transform: scale(1.1);
+		right: 100px;
+	}
+}
+@media screen and (max-width: 980px){
+	p.title{
+		font-size: 9em;
+		line-height: 145px;
+		/* -ms-text-align: left; */
+		/* text-align: left; */
+		padding: 30px 10px;
+		text-shadow: 0px 0px 2px #fff;
+	}
+	p.under{
+		font-size: 5em;
+		/* -ms-text-align: left; */
+		/* text-align: left; */
+		/* padding-left: 30px; */
+		position: absolute;
+		bottom: 100px;
+		color: yellow;
+		text-shadow: 2px 2px 20px #000;
+	}
+	p.citata{
+		transform: skewY(0deg);
+		text-align: center;
+		left: 50px;
+		top: 1250px;
+		width: 90%;
+		font-size: 3.5em;
+		font-style: italic;
+		color: #000;
+		text-shadow: 2px 2px 15px yellow;
+	}
+	p.portret{
+		font-size: 3em;
+		color: yellow;
+		text-shadow: 2px 2px 20px #000;
+		margin-bottom: 20px;
+	}
+	#wr-portret{
+		top: 500px;
+		right: 16%;
+		transform: scale(1.5);
+		width: 400px;
+		border: 3px solid #ccc;
+		border-radius: 50px;
+	}
+	ul.menu{
+		top:550px;
+		transform: scale(1.5);
+		margin-left: 60px;
+		width: 250px;
+	}
+	#header{
+		background: url(imgs/bg-641.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+		height: 2000px;
+	}
+	#footer{
+		height: 300px;
+	}
+	p.contacts{
+		font-size: 3em;
+	}
+	ul.menu>li>a{
+		padding: 30px 10px 30px 85px;
+		text-align: right;
+		font-size: 1.2em;
+		font-weight: bold;
+		color: #fff;
+		background: #FF0000;
+	}
+	ul.menu>li{
+		margin-left: -20px;
+	}
+}
+#box-cont{
+	padding-top: 10px;
+}
+#map{
+	padding: 20px;
+}
+p.copy>a{
+	color: #fff;
+}
+p.copy{
+	padding: 0 10px 10px;
+}
+p.copy>a:hover{
+	text-shadow: 1px 1px 2px #000;
+	color: blue;
+}
