@@ -101,7 +101,7 @@ p.citata{
 	background: #222;
 	border-top: 6px solid #000;
 	border-bottom: 6px solid #000;
-	padding: 10px;
+	padding: 15px;
 }
 #wr-portret{
 	position: absolute;
@@ -144,7 +144,7 @@ p.copy a:hover{
 	color: blue;
 }
 
-@media screen and (max-width: 1020px) {
+/* @media screen and (max-width: 1020px) {
 	p.title{
 		font-size: 3em;
 	}
@@ -160,7 +160,7 @@ p.copy a:hover{
 		transform: scale(1.1);
 		right: 100px;
 	}
-}
+} */
 @media screen and (max-width: 980px){
 	p.title{
 		font-size: 9em;
@@ -213,11 +213,11 @@ p.copy a:hover{
 		min-height: 2000px;
 	}
 	#footer{
-		min-height: 350px;
-		padding-bottom: 30px;
+		/* min-height: 350px; */
+		/* padding-bottom: 30px; */
 	}
 	p.contacts, p.copy a{
-		font-size: 3em;
+		font-size: 2em;
 	}
 	ul.menu>li>a{
 		padding: 30px 10px 30px 85px;
