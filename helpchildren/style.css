@@ -179,7 +179,7 @@ p.copy a{
 		border-radius: 50px;
 	}
 	ul.menu{
-		top:520px;
+		top:460px;
 		margin-left: 0px;
 		width: 750px;
 	}
@@ -203,11 +203,11 @@ p.copy a{
 		font-weight: bold;
 		color: #fff;
 		background: #FF0000;
-		padding: 15px;
-		border-radius: 0 40px 40px 0;
+		padding: 40px 0;
+		border-radius: 0 50px 50px 0;
 	}
 	ul.menu>li{
-		margin: 0 0 50px -20px;
+		margin: 0 0 15px -10px;
 		width: 320px;
 	}
 }
