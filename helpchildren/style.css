@@ -101,6 +101,7 @@ p.citata{
 	background: #222;
 	border-top: 6px solid #000;
 	border-bottom: 6px solid #000;
+	padding: 10px;
 }
 #wr-portret{
 	position: absolute;
@@ -127,12 +128,14 @@ p.citata{
 }
 p.contacts{
 	color: #fff;
-	padding: 10px 0 0 10px;
 	font-size: 14px;
 	font-style: italic;
 }
-.contacts>a{
+p.contacts>a{
 	color: #fff;
+}
+p.copy{
+	font-size: 14px;
 }
 
 @media screen and (max-width: 1020px) {
@@ -212,7 +215,7 @@ p.contacts{
 		min-height: 350px;
 		padding-bottom: 30px;
 	}
-	p.contacts{
+	p.contacts, p.copy{
 		font-size: 3em;
 	}
 	ul.menu>li>a{
@@ -230,12 +233,11 @@ p.contacts{
 #box-cont{
 	padding-top: 10px;
 }
-p.copy>a{
+p.copy a{
 	color: #fff;
 	font-style: italic;
-	font-size: 3em;
 }
-p.copy>a:hover{
+p.copy a:hover{
 	text-shadow: 1px 1px 2px #000;
 	color: blue;
 }
