@@ -67,7 +67,7 @@ ul.menu>li>a:hover{
 }
 p.title{
 	color:red;
-	text-shadow: 1px 1px 1px #fff;
+	text-shadow: 2px 2px 5px #fff;
 	font-size: 5em;
 	opacity: .8;
 	font-family: lobster;
@@ -144,29 +144,11 @@ p.copy a:hover{
 	color: blue;
 }
 
-/* @media screen and (max-width: 1020px) {
-	p.title{
-		font-size: 3em;
-	}
-	p.under{
-		font-size: 2em;
-	}
-	p.citata{
-		top: 620px;
-		font-size: 2em;
-		width: 500px;
-	}
-	#wr-portret{
-		transform: scale(1.1);
-		right: 100px;
-	}
-} */
 @media screen and (max-width: 980px){
 	p.title{
 		font-size: 9em;
 		line-height: 145px;
 		padding: 30px 10px;
-		text-shadow: 0px 0px 2px #fff;
 	}
 	p.under{
 		font-size: 5em;
