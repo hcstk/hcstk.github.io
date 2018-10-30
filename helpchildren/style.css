@@ -126,16 +126,13 @@ p.citata{
 	font-size: 2em;
 	padding-bottom: 10px;
 }
-p.contacts{
+p.contacts, p.copy{
 	color: #fff;
 	font-size: 14px;
 	font-style: italic;
 }
 p.contacts>a{
 	color: #fff;
-}
-p.copy{
-	font-size: 14px;
 }
 
 @media screen and (max-width: 1020px) {
