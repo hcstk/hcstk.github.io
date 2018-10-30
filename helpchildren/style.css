@@ -189,15 +189,10 @@ p.copy a{
 		background-size: cover;
 		min-height: 2000px;
 	}
-	#footer{
-		/* min-height: 350px; */
-		/* padding-bottom: 30px; */
-	}
 	p.contacts, p.copy a{
 		font-size: 1.7em;
 	}
 	ul.menu>li>a{
-		/* padding: 30px 10px 30px 85px; */
 		text-align: center;
 		font-size: 2em;
 		font-weight: bold;

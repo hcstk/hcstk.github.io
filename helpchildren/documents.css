@@ -27,9 +27,3 @@ body{
 	display: flex;
 	justify-content: space-around;
 }
-.img{
-	background: url(scans/IMG_20181020_180941.jpg);
-	-webkit-background-size: 400px 350px;
-	background-size: 400px 350px;
-	width: 100px;
-}
