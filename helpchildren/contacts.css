@@ -9,13 +9,17 @@
 	font-family: tahoma, arial;
 }
 body{
-	/* background: url(imgs/bg-body.png); */
 	background:rgba(0,0,0,.8);
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
 	-ms-align-items: center;
 	align-items: center;
 }
