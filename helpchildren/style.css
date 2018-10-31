@@ -67,7 +67,7 @@ ul.menu>li>a:hover{
 }
 p.title{
 	color:red;
-	text-shadow: 2px 2px 5px #fff;
+	text-shadow: 2px 2px 10px #fff;
 	font-size: 5em;
 	opacity: .8;
 	font-family: lobster;
@@ -106,7 +106,7 @@ p.citata{
 	border-radius: 30px;
 }
 #portret-img{
-	background: url(imgs/siluet.png);
+	background: url(imgs/siluet2.jpg);
 	width: 208px;
 	height: 223px;
 	margin: 0 auto;
