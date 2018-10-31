@@ -205,4 +205,11 @@ p.copy a{
 		margin: 0 0 15px -10px;
 		width: 320px;
 	}
+	ul.menu>li:hover{
+		margin: 0 0 15px -10px;
+		width: 320px;
+	}
+	ul.menu>li:first-child{
+		margin: 0 0 15px -10px;
+	}
 }
