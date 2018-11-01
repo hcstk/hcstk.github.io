@@ -139,10 +139,8 @@ p.copy a{
 }
 
 @media screen and (max-width: 980px){
-	body{
-		background: #555;
-	}
 	#header{
+		background: #222;
 		background-size: cover;
 		min-height: 2000px;
 	}
@@ -210,5 +208,8 @@ p.copy a{
 	}
 	ul.menu>li:first-child{
 		margin: 0 0 15px -10px;
+	}
+	#footer{
+		background: #000;
 	}
 }
