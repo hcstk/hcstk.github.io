@@ -4,8 +4,6 @@
 *{
 	padding: 0;
 	margin: 0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	text-decoration: none;
 	list-style: none;
@@ -141,6 +139,13 @@ p.copy a{
 }
 
 @media screen and (max-width: 980px){
+	body{
+		background: #555;
+	}
+	#header{
+		background-size: cover;
+		min-height: 2000px;
+	}
 	p.title{
 		font-size: 9em;
 		line-height: 145px;
@@ -182,12 +187,6 @@ p.copy a{
 		top:600px;
 		margin-left: 0px;
 		width: 750px;
-	}
-	#header{
-		background: url(imgs/bg-641.jpg);
-		-webkit-background-size: cover;
-		background-size: cover;
-		min-height: 2000px;
 	}
 	p.contacts, p.copy a{
 		font-size: 1.7em;
