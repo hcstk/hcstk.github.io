@@ -132,6 +132,7 @@ p.contacts>a{
 p.copy-coder a, p.copy-owner a{
 	font-size: 14px;
 	font-style: italic;
+	color: #4671D5;
 }
 #footer{
 	min-height: 100px;
@@ -152,6 +153,7 @@ p.copy-coder a, p.copy-owner a{
 		font-size: 8em;
 		line-height: 145px;
 		padding: 30px 10px;
+		text-shadow: 0 0 0 #000;
 	}
 	p.under{
 		font-size: 5em;
