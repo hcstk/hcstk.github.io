@@ -126,9 +126,8 @@ p.contacts{
 p.contacts>a{
 	color: #fff;
 }
-p.copy a{
+p.copy a, p.footer-copy a{
 	font-size: 14px;
-	color: #fff;
 	font-style: italic;
 }
 #footer{
