@@ -126,7 +126,7 @@ p.contacts{
 p.contacts>a{
 	color: #fff;
 }
-p.copy a, p.footer-copy a{
+p.copy-coder a, p.copy-owner a{
 	font-size: 14px;
 	font-style: italic;
 }
@@ -187,7 +187,7 @@ p.copy a, p.footer-copy a{
 		margin-left: 0px;
 		width: 750px;
 	}
-	p.contacts, p.copy a{
+	p.contacts a, p.copy-coder a, p.copy-owner a{
 		font-size: 1.7em;
 	}
 	ul.menu>li>a{
