@@ -73,6 +73,9 @@ p.title{
 	text-align: center;
 	cursor: pointer;
 }
+p.title>span{
+	font-size: .4em;
+}
 p.under{
 	color: yellow;
 	text-shadow: 1px 1px 10px #000;
