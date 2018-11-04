@@ -212,4 +212,7 @@ p.copy-coder a, p.copy-owner a{
 	p.contacts a, p.copy-coder a, p.copy-owner a{
 		font-size: 1.3em;
 	}
+	p.contacts{
+		padding-bottom: 15px;
+	}
 }
