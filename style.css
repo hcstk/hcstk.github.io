@@ -141,17 +141,16 @@ p.copy-coder a, p.copy-owner a{
 }
 
 @media screen and (max-width: 980px){
-
 	#header{
-		background: #111;
-		background-size: cover;
+		background: url(imgs/bg-mob2.jpg);
+		background-size: 100%;
 		min-height: 2000px;
 	}
 	p.title{
 		font-size: 8em;
 		line-height: 145px;
 		padding: 30px 10px;
-		text-shadow: 0 0 0 #000;
+		text-shadow: 0 0 8px #fff;
 	}
 	p.under{
 		font-size: 5em;
@@ -177,6 +176,7 @@ p.copy-coder a, p.copy-owner a{
 		margin-bottom: 20px;
 	}
 	#wr-portret{
+		background: rgba(0,0,0,.5);
 		top: 500px;
 		right: 16%;
 		transform: scale(1.25);
@@ -210,9 +210,12 @@ p.copy-coder a, p.copy-owner a{
 		margin: 0 0 15px -10px;
 	}
 	p.contacts a, p.copy-coder a, p.copy-owner a{
-		font-size: 1.3em;
+		font-size: 1.9em;
 	}
 	p.contacts{
-		padding-bottom: 15px;
+		padding-bottom: 30px;
+	}
+	#footer{
+		padding: 30px 0 30px 30px;
 	}
 }
