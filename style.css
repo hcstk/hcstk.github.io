@@ -140,7 +140,7 @@ p.copy-coder a, p.copy-owner a{
 	padding: 18px;
 }
 
-@media screen and (max-width: 980px){
+@media only screen and (max-width: 980px){
 	#header{
 		background: url(imgs/bg-mob2.jpg);
 		background-size: 100%;
