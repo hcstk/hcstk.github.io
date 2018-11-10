@@ -15,13 +15,14 @@ body{
 }
 #wrapper{
 	max-width: 1200px;
+	min-width: 950px;
 	margin: 0 auto;
 	position: relative;
 }
 #header{
 	background:url(imgs/bg.jpg);
-
 	height: 854px;
+	position: relative;
 }
 ul.menu{
 	position: absolute;
@@ -139,7 +140,7 @@ p.copy-coder a, p.copy-owner a{
 	padding: 18px;
 }
 
-@media only screen and (max-width: 980px){
+@media screen and (max-width: 980px){
 	#header{
 		background: url(imgs/bg-mob2.jpg);
 		background-size: 100%;
@@ -216,5 +217,51 @@ p.copy-coder a, p.copy-owner a{
 	}
 	#footer{
 		padding: 30px 0 30px 30px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#wrapper{
+		min-width: 620px;
+		position: static;
+
+	}
+	#header{
+		background-size: cover;
+	}
+	p.title{
+		font-size: 6em;
+		text-align: center;
+		line-height: 1em;
+		background: rgba(255,255,255,.3);
+		border-bottom: 2px solid #fff;
+	}
+	#wr-portret{
+		position: static;
+		margin: 48px auto;
+		width: 80%;
+		border: 0;
+		border-radius: 0;
+		background: none;
+	}
+	ul.menu{
+		position: static;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+	ul.menu li a{
+		border-radius: 0;
+		border-top: 0;
+		border-right: 0;
+		flex-shrink: 1;
+		font-size: 3vh;
+	}
+	p.citata{
+		top: 1000px;
 	}
 }
