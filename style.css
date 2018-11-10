@@ -15,14 +15,13 @@ body{
 }
 #wrapper{
 	max-width: 1200px;
-	min-width: 950px;
 	margin: 0 auto;
 	position: relative;
 }
 #header{
 	background:url(imgs/bg.jpg);
+
 	height: 854px;
-	position: relative;
 }
 ul.menu{
 	position: absolute;
