@@ -11,7 +11,7 @@
 	font-family: tahoma, arial;
 }
 body{
-	background: url(imgs/bg-body.png);
+	background: #eee;
 }
 #wrapper{
 	max-width: 1200px;
