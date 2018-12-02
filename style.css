@@ -200,6 +200,7 @@ p.copy-coder a, p.copy-owner a{
 	.location{
 		font-size: 4em;
 		left: 25%;
+		margin-top: 350px;
 	}
 	p.contacts a, p.copy-coder a, p.copy-owner a{
 		font-size: 1.9em;
