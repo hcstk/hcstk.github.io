@@ -120,11 +120,11 @@ p.citata{
 	text-align: center;
 	color: yellow;
 	text-shadow: 1px 1px 10px #000;
-	font-size: 2em;
+	font-size: 4em;
 	padding-bottom: 10px;
 }
 .fio{
-	font-size: 3em;
+	font-size: 4em;
 	color: red;
 	text-shadow: 1px 0 5px #fff;
 }
@@ -146,7 +146,7 @@ p.copy-coder a, p.copy-owner a{
 }
 .location{
 	position: absolute;
-	left: 32%;
+	left: 33%;
 	margin-top: -60px;
 	border: 5px solid #000;
 	background: #ccc;
@@ -176,7 +176,7 @@ p.copy-coder a, p.copy-owner a{
 	p.under{
 		font-size: 5em;
 		position: absolute;
-		bottom: 100px;
+		bottom: 200px;
 		color: yellow;
 		text-shadow: 1px 1px 10px #000;
 	}
@@ -193,9 +193,13 @@ p.copy-coder a, p.copy-owner a{
 	#wr-portret{
 		position: inherit;
 		margin: -150px auto;
-		font-size: 2.5em;
+		font-size: 1.5em;
 		width: 100%;
 
+	}
+	.location{
+		font-size: 4em;
+		left: 25%;
 	}
 	p.contacts a, p.copy-coder a, p.copy-owner a{
 		font-size: 1.9em;
