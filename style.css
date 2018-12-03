@@ -102,9 +102,9 @@ p.citata{
 }
 #wr-portret{
 	position: absolute;
-	top: 300px;
-	left: 20px;
-	width: 500px;
+	top: 250px;
+	left: 5%;
+	width: 600px;
 	transform: scale(.8);
 	/* border: 2px solid #ccc; */
 	border-radius: 30px;
@@ -122,6 +122,9 @@ p.citata{
 	text-shadow: 1px 1px 10px #000;
 	font-size: 4em;
 	padding-bottom: 10px;
+}
+.zasnovnyk{
+	font-size: 2em;
 }
 .fio{
 	font-size: 4em;
@@ -146,12 +149,12 @@ p.copy-coder a, p.copy-owner a{
 }
 .location{
 	position: absolute;
-	left: 33%;
+	left: 32%;
 	margin-top: -60px;
 	border: 5px solid #000;
 	background: #ccc;
 	padding: 20px;
-	border-radius: 50px;
+	border-radius: 30px;
 	font-size: 3em;
 	font-family: lobster;
 }
@@ -176,7 +179,7 @@ p.copy-coder a, p.copy-owner a{
 	p.under{
 		font-size: 5em;
 		position: absolute;
-		bottom: 200px;
+		bottom: 100px;
 		color: yellow;
 		text-shadow: 1px 1px 10px #000;
 	}
@@ -191,16 +194,25 @@ p.copy-coder a, p.copy-owner a{
 		color: #fff;
 	}
 	#wr-portret{
-		position: inherit;
-		margin: -150px auto;
+		position: absolute;
+		left: 0px;
+		top: 500px;
 		font-size: 1.5em;
 		width: 100%;
-
+	}
+	.zasnovnyk{
+		font-size: 3em;
+	}
+	.fio{
+		font-size: 5em;
+		font-family: pacifico;
+		line-height: 150px;
+		margin-top: 30px;
 	}
 	.location{
-		font-size: 4em;
-		left: 25%;
-		margin-top: 350px;
+		font-size: 3em;
+		margin-top: 450px;
+		padding: 10px;
 	}
 	p.contacts a, p.copy-coder a, p.copy-owner a{
 		font-size: 1.9em;
