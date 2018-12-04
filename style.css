@@ -23,7 +23,7 @@ body{
 }
 #header{
 	background:url(imgs/bg.jpg);
-	height: 854px;
+	height: 820px;
 	position: relative;
 }
 ul.menu{
@@ -163,8 +163,8 @@ p.copy-coder a, p.copy-owner a{
 	border-top: 5px solid #000;
 	padding: 18px;
 }
-
-@media screen and (max-width: 980px){
+/* =========screen-980 */
+/* @media screen and (max-width: 980px){
 	#header{
 		background: url(imgs/bg-mob2.jpg);
 		background-size: 100%;
@@ -222,5 +222,49 @@ p.copy-coder a, p.copy-owner a{
 	}
 	#footer{
 		padding: 30px 0 30px 30px;
+	}
+} */
+/* =======screen-780 */
+@media screen and (max-width: 980px){
+	#wrapper{
+		min-width: 700px;
+	}
+	#header{
+		background: url(imgs/bg-mob-780.jpg) no-repeat;
+		-webkit-background-size: 100%;
+		background-size: 100%;
+		min-height: 1300px;
+	}
+	p.title{
+		font-size: 4.8em;
+		padding-top: 50px;
+	}
+	p.under{
+		margin-top: 30px;
+	}
+	p.citata{
+		top: 600px;
+		font-size: 2.5em;
+		left: 30px;
+		transform: skewY(0);
+		border: 2px solid #fff;
+		border-radius: 50px;
+		width: 400px;
+		padding: 20px;
+		background: rgba(0,0,0,.5);
+	}
+	#wr-portret{
+		top: 330px;
+		left: -50px;
+	}
+	.zasnovnyk{
+		font-size: 2.8em;
+	}
+	.fio{
+		font-size: 4.5em;
+		line-height: 1em;
+	}
+	.location{
+		left: 26%;
 	}
 }
