@@ -264,4 +264,8 @@ p.copy-coder a, p.copy-owner a{
 	.location{
 		left: 30%;
 	}
+	p.contacts{
+		font-size: 1.4em;
+		margin-bottom: 20px;
+	}
 }
