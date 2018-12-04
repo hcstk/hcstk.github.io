@@ -102,8 +102,8 @@ p.citata{
 }
 #wr-portret{
 	position: absolute;
-	top: 250px;
-	left: 5%;
+	top: 350px;
+	left: -85px;
 	width: 600px;
 	transform: scale(.8);
 	/* border: 2px solid #ccc; */
