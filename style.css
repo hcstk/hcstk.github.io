@@ -243,12 +243,12 @@ p.copy-coder a, p.copy-owner a{
 		margin-top: 20px;
 	}
 	p.citata{
-		top: 1000px;
+		top: 1050px;
 		font-size: 3.5em;
-		left: 15%;
+		left: 7%;
 		transform: skewY(0);
-		width: 750px;
-		padding: 20px;
+		width: 830px;
+		padding: 0px;
 	}
 	#wr-portret{
 		top: 320px;
