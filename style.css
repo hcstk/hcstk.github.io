@@ -233,7 +233,7 @@ p.copy-coder a, p.copy-owner a{
 		background: url(imgs/bg-mob-780a.jpg) no-repeat;
 		-webkit-background-size: 100%;
 		background-size: 100%;
-		min-height: 1300px;
+		min-height: 1550px;
 	}
 	p.title{
 		font-size: 4.8em;
@@ -243,15 +243,15 @@ p.copy-coder a, p.copy-owner a{
 		margin-top: 20px;
 	}
 	p.citata{
-		top: 800px;
-		font-size: 3em;
-		left: 17%;
+		top: 1000px;
+		font-size: 3.5em;
+		left: 15%;
 		transform: skewY(0);
-		width: 700px;
+		width: 750px;
 		padding: 20px;
 	}
 	#wr-portret{
-		top: 300px;
+		top: 320px;
 		left: 30px;
 	}
 	.zasnovnyk{
