@@ -11,8 +11,6 @@
 	list-style: none;
 	font-family: tahoma, arial;
 }
-body{
-}
 #wrapper{
 	background:rgba(0,0,0,.8);
 	max-width: 1200px;
@@ -43,6 +41,9 @@ p.text-cont, p.text-cont>a{
 }
 
 @media screen and (max-width: 980px){
+	body{
+		background:rgba(0,0,0,.2);
+	}
 	p.text-cont, p.text-cont>a{
 		font-size: 2em;
 		padding: 40px;
