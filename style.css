@@ -101,12 +101,15 @@ p.citata{
 	transform: skewY(-20deg);
 }
 #wr-portret{
-	position: absolute;
-	top: 350px;
-	left: -85px;
-	width: 600px;
-	transform: scale(.8);
-	/* border: 2px solid #ccc; */
+	/* position: absolute; */
+	/* top: 350px; */
+	/* left: -85px; */
+	width: 30%;
+	text-align: center;
+	font-size: 70%;
+	margin-top: 200px;
+	margin-left: 60px;
+	/* transform: scale(.8); */
 	border-radius: 30px;
 }
 /* #portret-img{
@@ -147,16 +150,21 @@ p.copy-coder a, p.copy-owner a{
 #map{
 	border-top: 5px solid #000;
 }
-.location{
+.location a{
+	display: block;
 	position: absolute;
-	left: 32%;
+	left: 50%;
 	margin-top: -60px;
+	margin-left: -200px;
+	width: 400px;
+	text-align: center;
 	border: 5px solid #000;
 	background: #ccc;
 	padding: 20px;
 	border-radius: 30px;
 	font-size: 3em;
 	font-family: lobster;
+	color: #000;
 }
 #footer{
 	background: #222;
@@ -227,12 +235,14 @@ p.copy-coder a, p.copy-owner a{
 /* =======screen-780 */
 @media screen and (max-width: 980px){
 	#wrapper{
-		min-width: 700px;
+		min-width: 785px;
 	}
 	#header{
 		background: url(imgs/bg-mob-780a.jpg) no-repeat;
-		-webkit-background-size: 100%;
-		background-size: 100%;
+		/* -webkit-background-size: 100% 100%; */
+		/* background-size: 100% 100%; */
+		-webkit-background-size: cover;
+		background-size: cover;
 		min-height: 1550px;
 	}
 	p.title{
@@ -243,16 +253,18 @@ p.copy-coder a, p.copy-owner a{
 		margin-top: 20px;
 	}
 	p.citata{
-		top: 1050px;
+		position: absolute;
+		top: 1000px;
 		font-size: 3.5em;
-		left: 7%;
+		/* left: 7%; */
 		transform: skewY(0);
-		width: 830px;
-		padding: 0px;
+		width: 100%;
+		padding: 50px;
 	}
 	#wr-portret{
-		top: 320px;
-		left: 30px;
+		width: 70%;
+		font-size: 100%;
+		margin: 180px auto;
 	}
 	.zasnovnyk{
 		font-size: 2.8em;
