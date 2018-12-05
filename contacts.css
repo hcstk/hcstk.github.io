@@ -32,7 +32,7 @@ p.text-cont, p.text-cont>a{
 }
 #button-home a{
 	display: block;
-	margin: 0 auto;
+	margin: 0px auto 10px;
 	width: 300px;
 	text-align: center;
 	border: 5px solid #000;
@@ -52,9 +52,6 @@ p.copy-coder a, p.copy-owner a, p.contacts a{
 	color: #fff;
 	padding-top: 20px;
 	font-size: 13px;
-	position: fixed;
-		min-height: 100%;
-		min-width: 100%;
 }
 
 @media screen and (max-width: 980px){
@@ -71,13 +68,13 @@ p.copy-coder a, p.copy-owner a, p.contacts a{
 	#button-home{
 		font-size: 1.5em;
 		padding-top: 80px;
+		padding-bottom: 20px;
 	}
 	p.text-cont, p.text-cont>a{
 		font-size: 1.8em;
 		/* padding: 40px; */
 	}
-	.copy-owner,.copy-coder{
-		font-size: 22px;
-		
+	#footer{
+		font-size: 12px;
 	} 
 }
