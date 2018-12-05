@@ -74,9 +74,8 @@ p.copy-coder a, p.copy-owner a, p.contacts a{
 	#footer{
 		font-size: 12px;
 	}
-	p.contacts{
- 		margin-bottom: 20px;
+	p.copy-coder{
  		border-bottom: 2px solid #fff;
-		padding-bottom: 20px;
+		padding-bottom: 50px;
 	}
 }
