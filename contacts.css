@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster');
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
-
 *{
 	padding: 0;
 	margin: 0;
@@ -11,70 +8,94 @@
 	list-style: none;
 	font-family: tahoma, arial;
 }
-body{
-	background: url(imgs/bg-mob-780a.jpg) no-repeat;
-	background-size: cover ;
-}
 #wrapper{
-	background: rgba(0,0,0,.8);
+	background-color: lime;
+	background-image: url(imgs/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 	max-width: 1200px;
-	min-width: 650px;
 	margin: 0 auto;
-	padding: 20px;
+	min-height: 100vh;
+	display: grid;
+}
+#header{
+	padding: 0 10px;
+}
+.box-contacts{
+	padding: 30px 0;
+}
+.box-contacts p{
+	color: #FFFFFF;
+	margin-bottom: 10px;
+}
+.box-contacts a{
+	color: #FFFFFF;
+	border-bottom: 1px solid transparent;
+	transition: .2s;
+}
+.box-contacts a:hover{
+	border-bottom: 1px solid #FFFFFF;
+	text-shadow: 0 0 5px #FFFFFF;
+}
+.box-contacts a span{
+	font-size: 20px;
 }
 #map{
-	max-width: 100%;
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
 }
-p.text-cont, p.text-cont>a{
+#map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+p.text-contacts, p.text-contacts>a{
 	padding: 20px 0px;
-	color: #fff;
-	font-size: 1.5em;
+	color: #FFFFFF;
+	font-size: 1.2em;
 }
-#button-home a{
-	display: block;
-	margin: 0px auto 10px;
-	width: 300px;
+.block-button-location{
 	text-align: center;
-	border: 5px solid #000;
-	background: #ccc;
-	padding: 10px;
+	margin: 40px 0;
+}
+.button-location{
+	display: inline-block;
+	text-align: center;
+	background-color: rgba(255,255,255,.7);
 	border-radius: 30px;
-	font-size: 2em;
+	transition: .2s;
+}
+.button-location:hover{
+	background-color: rgba(255,255,255,1);
+	-webkit-box-shadow: 0 0 8px #FFFFFF;
+	box-shadow: 0 0 8px #FFFFFF;
+}
+.button-location a{
+	display: block;
+	padding: 10px 40px;
+	font-size: 26px;
 	font-family: lobster;
 	color: #000;
 }
 p.copy-coder a, p.copy-owner a, p.contacts a{
-	/* font-size: 12px; */
-	color: #4671D5;
-	color: #fff;
+	color: #FFFFFF;
 }
 #footer{
-	color: #fff;
-	padding-top: 20px;
+	color: #FFFFFF;
+	padding: 20px;
 	font-size: 13px;
+	/*background-color: rgba(0,0,0,.4);*/
 }
-
-@media screen and (max-width: 980px){
-	body{
-		
-	}
-	#wrapper{
-		min-height: 1200px;
-		min-width: 790px;
-		padding: 40px;
-		background: rgba(0,0,0,.7);
-		min-height: 1600px;
-	}
-	#button-home{
-		font-size: 1.5em;
-		padding-top: 80px;
-		padding-bottom: 20px;
-	}
-	p.text-cont, p.text-cont>a{
-		font-size: 1.8em;
-		/* padding: 40px; */
-	}
-	#footer{
-		font-size: 12px;
-	} 
+.links a{
+	transition: .2s;
+	border-bottom: 1px solid transparent;
+	color: #FFFFFF;
+}
+.links a:hover{
+	border-bottom: 1px solid #FFF;
 }
