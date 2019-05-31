@@ -152,9 +152,12 @@ p.copy-coder a, p.copy-owner a{
 		font-size: 22px;
 		line-height: 1;
 	}
+	.zasnovnyk{
+		font-size: 24px;
+	}
 	.fio{
 		font-size: 36px;
-		line-height: 1;
+		line-height: .8;
 		color:  #679ED2;
 	}
 }
