@@ -37,11 +37,6 @@ p.title{
 p.title span{
 	font-size: 22px;
 }
-@media (max-width: 900px) {
-	p.title{
-		font-size: 40px;
-	}
-}
 p.under{
 	color: lime;
 	text-shadow:0 0 10px #000;
@@ -59,7 +54,7 @@ p.under{
 @media (max-width: 900px) {
 	.block-citata{
 		margin-bottom: 0;
-		padding: 40px 0;
+		padding: 20px 0;
 	}
 }
 .text-citata{
@@ -76,7 +71,9 @@ p.under{
 }
 @media (max-width: 900px) {
 	.text-citata{
+		font-size: 18px;
 		line-height: 1;
+		transform: skewY(0);
 	}
 }
 #wr-portret{
@@ -143,4 +140,21 @@ p.copy-coder a, p.copy-owner a{
 	background-color: rgba(0,0,0,.8);
 	padding: 10px;
 	margin-top: -5px;
+}
+@media (max-width: 600px) {
+	p.title{
+		font-size: 24px;
+	}
+	p.title span{
+		font-size: 14px;
+	}
+	p.under{
+		font-size: 22px;
+		line-height: 1;
+	}
+	.fio{
+		font-size: 36px;
+		line-height: 1;
+		color:  #679ED2;
+	}
 }
