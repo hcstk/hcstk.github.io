@@ -99,11 +99,3 @@ p.copy-coder a, p.copy-owner a, p.contacts a{
 .links a:hover{
 	border-bottom: 1px solid #FFF;
 }
-
-/*adaptive-----450px*/
-
-@media (max-width: 450px) {
-	#wrapper{
-		max-height: 100vh;
-	}
-}
