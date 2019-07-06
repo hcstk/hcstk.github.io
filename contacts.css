@@ -16,7 +16,21 @@
 	max-width: 1200px;
 	margin: 0 auto;
 	min-height: 100vh;
-	display: grid;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
 }
 #header{
 	padding: 0 10px;
@@ -84,6 +98,7 @@ p.copy-coder a, p.copy-owner a, p.contacts a{
 	padding: 20px;
 	font-size: 13px;
 	background-color: rgba(0,0,0,.4);
+	flex-grow: 1;
 }
 .links a{
 	transition: .2s;
