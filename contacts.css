@@ -58,28 +58,23 @@ p.text-contacts, p.text-contacts>a{
 	color: #FFFFFF;
 	font-size: 1.2em;
 }
-.block-button-location{
-	text-align: center;
-	margin: 40px 0;
-}
 .button-location{
-	display: inline-block;
 	text-align: center;
-	background-color: rgba(255,255,255,.7);
-	border-radius: 30px;
-	transition: .2s;
-}
-.button-location:hover{
-	background-color: rgba(255,255,255,1);
-	-webkit-box-shadow: 0 0 8px #FFFFFF;
-	box-shadow: 0 0 8px #FFFFFF;
+	margin: 50px 0;
 }
 .button-location a{
-	display: block;
+	background-color: rgba(255,255,255,.7);
+	border-radius: 30px;
 	padding: 10px 40px;
 	font-size: 26px;
 	font-family: lobster;
 	color: #000;
+	transition: .2s;
+}
+.button-location a:hover{
+	background-color: rgba(255,255,255,1);
+	-webkit-box-shadow: 0 0 8px #FFFFFF;
+	box-shadow: 0 0 8px #FFFFFF;
 }
 p.copy-coder a, p.copy-owner a, p.contacts a{
 	color: #FFFFFF;
@@ -88,7 +83,7 @@ p.copy-coder a, p.copy-owner a, p.contacts a{
 	color: #FFFFFF;
 	padding: 20px;
 	font-size: 13px;
-	/*background-color: rgba(0,0,0,.4);*/
+	background-color: rgba(0,0,0,.4);
 }
 .links a{
 	transition: .2s;
