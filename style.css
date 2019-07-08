@@ -15,7 +15,6 @@
 	min-height: 100vh;	
 }
 #header{
-	background-image: url(images/bg2.jpg);
 	position: relative;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
