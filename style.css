@@ -8,6 +8,9 @@
 	list-style: none;
 	font-family: tahoma, arial;
 }
+body{
+	background-image: url(https://cdn.pixabay.com/photo/2015/05/29/16/36/seamless-tiling-clouds-789451_960_720.jpg);
+}
 #wrapper{
 	max-width: 1200px;
 	margin: 0 auto;
