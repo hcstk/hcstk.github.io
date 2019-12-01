@@ -9,7 +9,7 @@
 	font-family: tahoma, arial;
 }
 body{
-	background-image: url(https://cdn.pixabay.com/photo/2015/05/29/16/36/seamless-tiling-clouds-789451_960_720.jpg);
+	/*background-image: url(https://cdn.pixabay.com/photo/2015/05/29/16/36/seamless-tiling-clouds-789451_960_720.jpg);*/
 }
 #wrapper{
 	max-width: 1200px;
@@ -29,12 +29,12 @@ body{
 p.title{
 	color: #679ED2;
 	/*text-shadow: 0 0 4px #fff;*/
-	font-size: 70px;
+	font-size: 56px;
 	opacity: .8;
 	font-family: lobster;
 	text-align: center;
 	cursor: pointer;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 p.title span{
 	font-size: 22px;
@@ -47,11 +47,11 @@ p.under{
 	text-align: center;
 }
 .block-citata{
-	padding: 70px 0;
+	padding: 20px 0;
 	text-align: right;
 	width: 100%;
 	display: block;
-	margin-bottom: 70px;
+	margin-bottom: 10px;
 }
 @media (max-width: 900px) {
 	.block-citata{
@@ -83,13 +83,24 @@ p.under{
 	font-size: 16px;
 	border-radius: 30px;
 }
+.some-text{
+	padding: 30px;
+	margin: 100px 60px 0;
+	/*text-align: center;*/
+	background-color: rgba(0,0,0,.5);
+}
+.some-text p{
+	color: #fff;
+	margin-bottom: 10px;
+	text-indent: 2em;
+}
 .portret{
 	font-family: lobster;
 	text-align: center;
 	color: lime;
 	text-shadow: 1px 1px 10px #000;
 	font-size: 4em;
-	padding-bottom: 10px;
+	/*padding-bottom: 10px;*/
 }
 .zasnovnyk{
 	font-size: 32px;
