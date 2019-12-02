@@ -62,6 +62,7 @@ p.under{
 	.block-citata{
 		margin-bottom: 0;
 		padding: 20px 0;
+		text-align: center;
 	}
 }
 .text-citata{
@@ -121,6 +122,7 @@ p.pidpys{
 .fio{
 	font-size: 46px;
 	color:  #679ED2;
+	opacity: .7;
 }
 p.contacts{
 	color: #fff;
@@ -169,7 +171,7 @@ p.copy-coder a, p.copy-owner a{
 }
 @media (max-width: 600px) {
 	p.title{
-		font-size: 24px;
+		font-size: 28px;
 	}
 	p.title span{
 		font-size: 14px;
