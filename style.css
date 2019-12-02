@@ -26,15 +26,20 @@ body{
 	padding: 20px 10px 0 10px;
 	background-color: rgba(0,0,0,.2);
 }
+#header .fond{
+	color: #fff;
+	text-align: center;
+	font-size: 28px;
+}
 p.title{
 	color: #679ED2;
 	/*text-shadow: 0 0 4px #fff;*/
-	font-size: 56px;
-	opacity: .8;
+	font-size: 50px;
+	opacity: .7;
 	font-family: lobster;
 	text-align: center;
 	cursor: pointer;
-	padding-bottom: 10px;
+	/*padding-bottom: 10px;*/
 }
 p.title span{
 	font-size: 22px;
@@ -42,7 +47,7 @@ p.title span{
 p.under{
 	color: lime;
 	text-shadow:0 0 10px #000;
-	font-size: 30px;
+	font-size: 22px;
 	font-family: lobster;
 	text-align: center;
 }
@@ -84,16 +89,23 @@ p.under{
 	border-radius: 30px;
 }
 .some-text{
-	padding: 30px;
-	margin: 40px auto;
+	color: #000;
+	padding: 10px 24px;
+	margin: 40px 50px;
 	/*text-align: center;*/
-	background-color: rgba(0,0,0,.5);
-	max-width: 1100px;
+	background-color: rgba(225,225,225,.6);
+	/*max-width: 1000px;*/
+	font-style: italic;
+	max-width: 800px auto;
 }
 .some-text p{
-	color: #fff;
 	margin-bottom: 10px;
 	text-indent: 2em;
+	font-family: arial;
+}
+p.pidpys{
+	text-align: right;
+	font-size: 1.2em;
 }
 .portret{
 	font-family: lobster;
@@ -104,7 +116,7 @@ p.under{
 	/*padding-bottom: 10px;*/
 }
 .zasnovnyk{
-	font-size: 32px;
+	font-size: 26px;
 }
 .fio{
 	font-size: 46px;
@@ -173,5 +185,8 @@ p.copy-coder a, p.copy-owner a{
 		font-size: 36px;
 		line-height: .8;
 		color:  #679ED2;
+	}
+	.some-text{
+		margin: 40px -10px;
 	}
 }
