@@ -24,7 +24,7 @@ body{
 	background-size: cover;
 	background-position: center;
 	padding: 20px 10px 0 10px;
-	background-color: rgba(0,0,0,.2);
+	background-color: rgba(0,0,0,.6);
 }
 #header .fond{
 	color: #fff;
@@ -34,7 +34,7 @@ body{
 p.title{
 	color: #679ED2;
 	/*text-shadow: 0 0 4px #fff;*/
-	font-size: 50px;
+	font-size: 40px;
 	opacity: .7;
 	font-family: lobster;
 	text-align: center;
@@ -120,7 +120,7 @@ p.pidpys{
 	font-size: 26px;
 }
 .fio{
-	font-size: 46px;
+	font-size: 40px;
 	color:  #679ED2;
 	opacity: .7;
 }
