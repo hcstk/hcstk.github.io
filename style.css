@@ -11,12 +11,18 @@
 body{
 	/*background-image: url(https://cdn.pixabay.com/photo/2015/05/29/16/36/seamless-tiling-clouds-789451_960_720.jpg);*/
 }
-#wrapper{
-	max-width: 1200px;
-	margin: 0 auto;
-	position: relative;
-	min-height: 100vh;	
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100vh;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
+
 #header{
 	position: relative;
 	background-repeat: no-repeat;
@@ -91,11 +97,9 @@ p.under{
 }
 .some-text{
 	color: #000;
-	padding: 10px 24px;
+	padding: 20px 14px;
 	margin: 40px 50px;
-	/*text-align: center;*/
 	background-color: rgba(225,225,225,.6);
-	/*max-width: 1000px;*/
 	font-style: italic;
 	max-width: 800px auto;
 }
